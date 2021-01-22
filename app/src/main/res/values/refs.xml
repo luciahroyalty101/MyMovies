@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="no_preview" />
+    <drawable name="touch_feedback" />
+    <drawable name="play_circle_outline_white_24dp" />
+</resources>

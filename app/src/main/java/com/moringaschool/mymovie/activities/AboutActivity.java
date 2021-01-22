@@ -1,10 +1,11 @@
-package com.moringaschool.mymovie.ui;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.moringaschool.mymovie.activities;
 
 import android.os.Bundle;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.moringaschool.mymovie.R;
+
 
 public class AboutActivity extends AppCompatActivity {
 

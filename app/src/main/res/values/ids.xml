@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="lightMode" type="id" />
+    <item name="search" type="id" />
+    <item name="about" type="id" />
+    <item name="delete_all" type="id" />
+    <item name="setting" type="id" />
+    <item name="favorites" type="id" />
+</resources>

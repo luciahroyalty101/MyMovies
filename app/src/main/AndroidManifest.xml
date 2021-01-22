@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
     package="com.moringaschool.mymovie">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY" />
+
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,14 +16,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMovie">
-        <activity android:name=".ui.WebViewActivity"></activity>
-        <activity android:name=".ui.SplashActivity" />
-        <activity android:name=".ui.SettingActivity" />
-        <activity android:name=".ui.SeeAllActivity" />
-        <activity android:name=".ui.MovieActivity" />
-        <activity android:name=".ui.AboutActivity" />
-        <activity android:name=".ui.FavouriteActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activities.WebViewActivity"></activity>
+        <activity android:name=".activities.SplashActivity" />
+        <activity android:name=".activities.SettingActivity" />
+        <activity android:name=".activities.SeeAllActivity" />
+        <activity android:name=".activities.MovieActivity" />
+        <activity android:name=".activities.AboutActivity" />
+        <activity android:name=".activities.FavoriteActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

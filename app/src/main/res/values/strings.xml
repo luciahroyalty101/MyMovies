@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">MyMovie</string>
+    <string name="night_mode" />
+    <string name="search_for_movies" />
+    <string name="light_mode" />
+    <string name="no_bookmarks" />
+    <string name="no_match" />
+    <string name="sort_key" />
+    <string name="popular_value" />
+    <string name="search" />
+    <string name="about" />
+    <string name="favorites" />
+    <string name="settings" />
+    <string name="delete_all_favorites" />
+    <string name="sort_default" />
+    <string name="sort_label" />
+    <string name="popular_label" />
+    <string name="youtube_url" />
+    <string name="thumbnail_firstPart" />
+    <string name="thumbnail_secondPart" />
+    <string name="no_internet_connection" />
+    <string name="Date" />
+    <string name="backdrop_picture" />
+    <string name="movie_name" />
+    <string name="en" />
+    <string name="_8_4" />
+    <string name="description" />
+    <string name="videos" />
+    <string name="see_all" />
+    <string name="no_available_trailers" />
+    <string name="no_available_reviews" />
+    <string name="reviews" />
+    <string name="movie_poster" />
+    <string name="trailer_of_the_movie" />
+    <string name="play_icon" />
+    <string name="toy_story_4_official_teaser_trailer" />
 </resources>
