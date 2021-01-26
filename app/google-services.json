@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "213377485349",
+    "project_id": "mymovie-5c8be",
+    "storage_bucket": "mymovie-5c8be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213377485349:android:c52d2b9144ab066d5c8dcc",
+        "android_client_info": {
+          "package_name": "com.moringaschool.mymovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213377485349-vs7midc380d06d1q5v353edqit6d5fsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7MiBbbKABU0dx19jkM-NfcuL_804Z56o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213377485349-vs7midc380d06d1q5v353edqit6d5fsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:213377485349:android:8a4a48b871d85eec5c8dcc",
+        "android_client_info": {
+          "package_name": "io.github.vinge1718.restaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "213377485349-vs7midc380d06d1q5v353edqit6d5fsk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7MiBbbKABU0dx19jkM-NfcuL_804Z56o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "213377485349-vs7midc380d06d1q5v353edqit6d5fsk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

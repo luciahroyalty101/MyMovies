@@ -19,4 +19,8 @@ public class ReviewViewModel extends ViewModel {
     public LiveData<List<Review>> getAllReviews(String idOfMovie) {
         return reviewRepository.getMutableLiveData(idOfMovie);
     }
+
+    public LiveData<List<Review>> getAllReviews() {
+        return null;
+    }
 }

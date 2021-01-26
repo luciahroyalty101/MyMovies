@@ -5,7 +5,6 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -13,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.moringaschool.mymovie.R;
 import com.moringaschool.mymovie.adapters.TrailerAdapter;
-import com.moringaschool.mymovie.databinding.ActivitySeeAllBinding;
 import com.moringaschool.mymovie.models.Trailer;
 import com.moringaschool.mymovie.network.TrailerViewModel;
 

@@ -10,6 +10,11 @@ public class RetrofitClient {
     private Retrofit retrofit;
 
 
+    public static final String FIREBASE_QUERY_INDEX = "index";
+    public static final String FIREBASE_CHILD_Email = "email";
+
+    public static final String FIREBASE_CHILD_Password = "password";
+
     private RetrofitClient() {
         retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)

@@ -1,7 +1,6 @@
 package com.moringaschool.mymovie.activities;
 
 import android.annotation.SuppressLint;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
@@ -12,7 +11,6 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -24,7 +22,6 @@ import com.moringaschool.mymovie.R;
 import com.moringaschool.mymovie.adapters.ReviewAdapter;
 import com.moringaschool.mymovie.adapters.TrailerAdapter;
 import com.moringaschool.mymovie.database.MovieRoomViewModel;
-import com.moringaschool.mymovie.databinding.ActivityMovieBinding;
 import com.moringaschool.mymovie.models.Movie;
 import com.moringaschool.mymovie.models.Review;
 import com.moringaschool.mymovie.models.Trailer;
@@ -67,7 +64,7 @@ public class MovieActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_movie);
+//        binding = DataBindingUtil.setContentView(this, R.layout.activity_see_all);
 
         reviewViewModel = new ViewModelProvider(this).get(ReviewViewModel.class);
         trailerViewModel = new ViewModelProvider(this).get(TrailerViewModel.class);
@@ -150,7 +147,7 @@ public class MovieActivity extends AppCompatActivity {
 
         // If movie is inserted
         if (SharedPreferencesUtils.getInsertState(this, idOfMovie)) {
-            binding.fab.setImageResource(R.drawable.favorite_red);
+//            binding.fab.setImageResource(R.drawable.favorite_red);
         }
     }
 
@@ -211,12 +208,12 @@ public class MovieActivity extends AppCompatActivity {
     private void toggleFavourite() {
         // If movie is not bookmarked
         if (!SharedPreferencesUtils.getInsertState(this, idOfMovie)) {
-            binding.fab.setImageResource(R.drawable.favorite_red);
+//            binding.fab.setImageResource(R.drawable.favorite_red);
             insertFavoriteMovie();
             SharedPreferencesUtils.setInsertState(this, idOfMovie, true);
             showSnackBar("Bookmark Added");
         } else {
-            binding.fab.setImageResource(R.drawable.favorite_border_red);
+//            binding.fab.setImageResource(R.drawable.favorite_border_red);
             deleteFavoriteMovieById();
             SharedPreferencesUtils.setInsertState(this, idOfMovie, false);
             showSnackBar("Bookmark Removed");
