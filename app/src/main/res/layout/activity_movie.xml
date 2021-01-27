@@ -38,7 +38,9 @@
                     android:layout_marginRight="16dp"
                     android:src="@drawable/favorite_border_red"
                     app:backgroundTint="@color/colorAccent"
-                    app:fabSize="mini" />
+                    app:fabSize="mini"
+                    app:rippleColor="#FFEB3B"
+                    android:layout_alignParentRight="true" />
             </RelativeLayout>
 
             <TextView

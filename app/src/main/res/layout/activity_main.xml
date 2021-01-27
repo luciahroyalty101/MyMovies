@@ -16,7 +16,7 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:text="@string/appbar_scrolling_view_behavior"
-        android:textColor="@color/black"
+        android:textColor="@color/purple_200"
         android:textSize="18sp"
         android:textStyle="italic"
         android:visibility="gone" />
