@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#A38B8B"
+    android:background="#221F1F"
     android:layout_marginTop="5dp"
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
@@ -17,7 +17,7 @@
         android:maxLines="7"
         android:padding="10dp"
         android:text="@string/appbar_scrolling_view_behavior"
-        android:textColor="#1B1919"
+        android:textColor="#EDE4E4"
         android:textSize="18sp" />
 
     <TextView
@@ -27,7 +27,7 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
         android:text="@string/bottom_sheet_behavior"
-        android:textColor="#191616"
+        android:textColor="#CABEBE"
         android:textSize="18sp" />
 
     <TextView
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="@string/app_name"
-        android:textColor="#151414"
+        android:textColor="#0A0A95"
         android:textSize="18sp"
         android:textStyle="italic" />
 </LinearLayout>
