@@ -89,7 +89,8 @@
                     android:layout_marginEnd="5dp"
                     android:textColor="@color/movieDetailsTextColor"
                     android:textSize="16sp"
-                    tools:text="Comedy" />
+                    tools:text="Comedy"
+                    android:layout_marginRight="5dp" />
             </LinearLayout>
 
             <LinearLayout
