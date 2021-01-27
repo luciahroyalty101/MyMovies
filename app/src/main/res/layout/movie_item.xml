@@ -48,6 +48,7 @@
             android:paddingRight="35dp"
             android:textColor="#fff"
             android:textSize="13sp"
-            tools:text="@string/_8_4" />
+            tools:text="@string/_8_4"
+            android:drawableLeft="@drawable/ic_star_yellow" />
     </LinearLayout>
 </androidx.cardview.widget.CardView>

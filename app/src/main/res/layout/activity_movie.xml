@@ -176,7 +176,8 @@
                         android:textColor="@color/colorAccent"
                         android:textSize="20sp"
                         android:textStyle="bold|italic"
-                        android:layout_marginLeft="5dp" />
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="10dp" />
                 </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
