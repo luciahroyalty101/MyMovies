@@ -79,7 +79,8 @@
                     android:layout_marginEnd="5dp"
                     android:textColor="@color/movieDetailsTextColor"
                     android:textSize="16sp"
-                    tools:text="Horror" />
+                    tools:text="Horror"
+                    android:layout_marginRight="5dp" />
 
                 <TextView
                     android:id="@+id/genreThree"
