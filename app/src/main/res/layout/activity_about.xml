@@ -43,7 +43,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/attribution" />
+        app:layout_constraintTop_toBottomOf="@+id/attribution"
+        android:layout_marginLeft="4dp" />
 
     <ImageView
         android:layout_width="150dp"
