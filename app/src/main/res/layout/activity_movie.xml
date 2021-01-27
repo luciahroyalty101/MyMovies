@@ -124,7 +124,8 @@
                 android:drawableStart="@drawable/ic_star_yellow"
                 android:textColor="@color/movieDetailsTextColor"
                 android:textSize="18sp"
-                tools:text="@string/_8_4" />
+                tools:text="@string/_8_4"
+                android:drawableLeft="@drawable/ic_star_yellow" />
 
             <TextView
                 android:id="@+id/descriptionOfMovie"
