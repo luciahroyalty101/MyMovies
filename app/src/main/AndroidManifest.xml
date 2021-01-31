@@ -14,13 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyMovie">
-        <activity android:name=".activities.LoginActivity">
-
+        <activity android:name=".activities.AnimationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".activities.LoginActivity">
+
         </activity>
         <activity android:name=".activities.CreateAccountActivity" />
         <activity android:name=".activities.WebViewActivity" />
@@ -30,9 +31,7 @@
         <activity android:name=".activities.MovieActivity" />
         <activity android:name=".activities.AboutActivity" />
         <activity android:name=".activities.FavoriteActivity" />
-        <activity android:name=".activities.MainActivity">
-
-        </activity>
+        <activity android:name=".activities.MainActivity"></activity>
     </application>
 
 </manifest>
