@@ -70,10 +70,7 @@ public class MovieActivity extends AppCompatActivity {
         trailerViewModel = new ViewModelProvider(this).get(TrailerViewModel.class);
         movieRoomViewModel = new ViewModelProvider(this).get(MovieRoomViewModel.class);
 
-//        setupRecyclerViews();
-
         receiveMovieDetails();
-
         getReviews();
         getTrailers();
 
